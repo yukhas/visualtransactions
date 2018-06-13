@@ -1,0 +1,10 @@
+<div class="selector">
+    <select v-model="selected">
+        <option disabled value="">List of regions</option>
+        <option v-for="region in regions">{{region}}</option>
+        <!-- <option>А</option>
+        <option>Б</option>
+        <option>В</option> -->
+    </select>
+    <!-- <span>Выбрано: {{ selected }}</span> -->
+</div>
